@@ -1,5 +1,8 @@
-function add(a1, b1){
-    console.log(a1 + b1);
-};
-add(1, 7);
-add(13, 89);
+function add(a, b) {
+  return a + b;
+}
+
+const a = Number(process.argv[2]);
+const b = Number(process.argv[3]);
+
+console.log(add(a, b));
